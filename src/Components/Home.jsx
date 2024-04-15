@@ -1,12 +1,17 @@
 import React from "react";
-import SearchBar from "../Search/Searchbaar";
-import Sidebar from "../Sidebar/Sidebar";
+import Searchbar from "../Searchbar/Searchbar";
+import mainimg from "../assets/mainbanner.jpg"
+import Sidebar from "../Sidebar/Sidebar"
+
 const Home = () => {
   return (
     <>
-      <div>
-        <SearchBar />
-        <Sidebar />
+      <div className="bg-[#FDE2FF] ">
+         <div>
+          <img src={mainimg} alt="" className="" />
+         </div>
+        < Searchbar  />
+      
       </div>
     </>
   );
