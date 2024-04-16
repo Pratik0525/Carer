@@ -1,17 +1,16 @@
 import React from "react";
 import Searchbar from "../Searchbar/Searchbar";
-import mainimg from "../assets/mainbanner.jpg"
-import Sidebar from "../Sidebar/Sidebar"
-
+import mainimg from "../assets/mainbanner.jpg";
+import Hospital from "../PageComponent/Home/Hospital";
 const Home = () => {
   return (
     <>
-      <div className="bg-[#FDE2FF] ">
-         <div>
+      <div className="bg-white ">
+        <div>
           <img src={mainimg} alt="" className="" />
-         </div>
-        < Searchbar  />
-      
+        </div>
+        <Searchbar />
+        <Hospital />
       </div>
     </>
   );
